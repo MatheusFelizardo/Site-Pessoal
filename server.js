@@ -47,8 +47,8 @@ server.post ("/contato", function (req,res) {
     let client = nodemailer.createTransport({
         service: 'SendGrid',
         auth: {
-          user: 'matheus.felizardo2@gmail.com',
-          pass: 'matheus157//*'
+          user: '******',
+          pass: '******'
         }
       });
 
